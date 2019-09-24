@@ -1,0 +1,49 @@
+= ..aallll
+
+(from gem mail-2.7.1)
+=== IImmpplleemmeennttaattiioonn  ffrroomm  MMaaiill
+------------------------------------------------------------------------
+  all(*args, &block)
+
+------------------------------------------------------------------------
+
+Receive all emails from the default retriever See Mail::Retriever for a
+complete documentation.
+
+
+(from gem mail-2.7.1)
+=== IImmpplleemmeennttaattiioonn  ffrroomm  RReettrriieevveerr
+------------------------------------------------------------------------
+  all(options = {}, &block)
+
+------------------------------------------------------------------------
+
+Get all emails.
+
+Possible options:
+  order: order of emails returned. Possible values are :asc or :desc. Default value is :asc.
+
+
+(from gem tzinfo-1.2.5)
+=== IImmpplleemmeennttaattiioonn  ffrroomm  CCoouunnttrryy
+------------------------------------------------------------------------
+  all()
+
+------------------------------------------------------------------------
+
+Returns an Array of all the defined Countries.
+
+
+(from gem tzinfo-1.2.5)
+=== IImmpplleemmeennttaattiioonn  ffrroomm  TTiimmeezzoonnee
+------------------------------------------------------------------------
+  all()
+
+------------------------------------------------------------------------
+
+Returns an array containing all the available Timezones.
+
+Returns TimezoneProxy objects to avoid the overhead of loading Timezone
+definitions until a conversion is actually required.
+
+
